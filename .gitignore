@@ -1,0 +1,11 @@
+
+# Keep private datasets out of Git
+data/
+*.csv
+
+# Keep API keys and secrets private
+.env
+
+# Ignore temporary files
+.ipynb_checkpoints/
+__pycache__/
